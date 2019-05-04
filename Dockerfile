@@ -27,7 +27,7 @@ RUN set -eux \
     && chmod 755 $TARGET
 
 # see https://github.com/jenkinsci/docker-slave/blob/master/Dockerfile
-ARG remoting_version=3.29
+ARG remoting_version=3.30
 ARG uid=1000
 ARG user=jenkins
 LABEL jenkins.remoting.version="$remoting_version"
